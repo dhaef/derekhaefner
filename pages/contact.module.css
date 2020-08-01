@@ -1,0 +1,57 @@
+.title {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0.5rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px rgba(132, 191, 156);
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 80vh;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.card {
+    margin: 1rem auto;
+    width: 95%;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px rgba(132, 191, 156);
+    border-radius: 5px;
+    display: flex;
+}
+
+.content {
+    margin: auto;
+}
+
+.content p,
+.content h2 {
+    text-align: center;
+    margin: 0.5rem;
+    font-size: x-large;
+}
+
+.iconContainer {
+    width: fit-content;
+    margin: auto;
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+    padding: 0 0.5rem;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 60%;
+    }
+}

@@ -1,0 +1,31 @@
+.container {
+    /* background-color: orangered; */
+    margin: auto 5px;
+    max-width: 1000px;
+}
+
+.title {
+    margin: 0 5px;
+    width: fit-content;
+    padding: 0.5rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px rgba(132, 191, 156);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.body {
+    font-size: large;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 839px) {
+    .title {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: auto;
+    }
+}

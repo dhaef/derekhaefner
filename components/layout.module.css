@@ -1,0 +1,117 @@
+.container {
+    /* background-color: #f0f0f0; */
+    /* background-color: black;
+    color: white; */
+    /* min-height: 97vh;
+    width: 98vw;
+    margin-left: 1vw;
+    margin-top: 1.5vh;
+    border-radius: 5px; */
+    /* box-shadow: 5px 5px 5px black; */
+}
+
+.lgnav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.smnav {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 80%;
+    margin: auto; */
+    position: relative;
+    /* display: inline-block; */
+}
+
+.smHead {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.dropdown {
+    display: block;
+    width: 100%;
+    /* display: none; */
+    /* position: absolute; */
+    /* background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 30px;
+    right: -3px; */
+}
+
+.dropdownItem {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    display: block;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.logo {
+    max-height: 15vh;
+    max-width: 15vw;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.logo:hover {
+    cursor: pointer;
+    /* border: 2px solid #4d4d4d; */
+    opacity: 0.7;
+}
+
+.name {
+    /* display: none; */
+    margin: auto 0;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: Bradley Hand, cursive;
+}
+.name:hover {
+    color: #4d4d4d;
+}
+
+.arrow {
+    margin: auto 0;
+}
+
+.navItems {
+    margin: auto 0 auto auto;
+}
+
+.navItems a {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    background-color: #84bf9c;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* box-shadow: 5px 5px 0px black; */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    /* color: white; */
+}
+
+.navItems a:hover {
+    background-color: #7db593;
+}
+
+@media only screen and (min-width: 839px) {
+    /* .name {
+        display: inline-block;
+    } */
+}
