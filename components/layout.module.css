@@ -58,11 +58,9 @@
 
 .logo {
     max-height: 15vh;
-    max-width: 15vw;
+    /* max-width: 15vw; */
     margin: 1rem;
-    padding: 0;
     border-radius: 50%;
-    box-sizing: border-box;
     border: 1px solid black;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
