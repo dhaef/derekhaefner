@@ -6,7 +6,7 @@ export default function Resume() {
         <Layout>
             <h1 className={styles.title}>Resume</h1>
             <div className={styles.picContainer}>
-                <img src="/Derek_Haefner_Resume-1.png" className={styles.pic} />
+                <img src="/Derek_Haefner_Resume-1.png" loading="lazy" className={styles.pic} />
             </div>
         </Layout>
     )

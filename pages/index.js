@@ -7,7 +7,7 @@ export default function Test() {
         <div className={styles.container}>
             <div className={styles.flexContainer}>
                 <div className={styles.meContainer}>
-                    <img src="/me.jpg" alt="me" className={styles.me} />
+                    <img src="/me.jpg" loading="lazy" alt="me" className={styles.me} />
                     <h2 className={styles.name}>Derek Haefner</h2>
                 </div>
                 <div className={styles.linkContainer}>

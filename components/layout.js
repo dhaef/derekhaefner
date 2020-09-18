@@ -9,7 +9,7 @@ function Layout({ children }) {
         <div className={styles.container}>
             <nav>
                 <div className={styles.lgnav}>
-                    <Link href="/"><img src="/Background.png" alt="Derek Logo" className={styles.logo} /></Link>
+                    <Link href="/"><img src="/Background.png" loading="lazy" alt="Derek Logo" className={styles.logo} /></Link>
                     <Link href="/"><a className={styles.name}>Derek Haefner</a></Link>
                     <div className={styles.navItems}>
                         <Link href="/projects"><a className={styles.navItem}>Projects</a></Link>
@@ -22,6 +22,7 @@ function Layout({ children }) {
                     <div className={styles.smHead}>
                         <img
                             src="/Background.png"
+                            loading="lazy"
                             alt="Derek Logo"
                             className={styles.logo}
                             onClick={() => setShowNav(!showNav)} />
