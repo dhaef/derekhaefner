@@ -21,6 +21,12 @@ export default function Projects() {
                 <p><span>Tools used:</span> JavaScript, HTML, CSS, D3.js, Node/Express</p>
             </div>
             <div className={styles.container}>
+                <a href="https://github.com/dhaef/battleship"><img src="/battleship.png" loading="lazy" className={styles.pic} /></a>
+                <p className={styles.name}>Battleship</p>
+                <p><span>Description:</span> Recreated the well known game of battleship using test driven development and factory functions</p>
+                <p><span>Tools used:</span> JavaScript, React, CSS</p>
+            </div>
+            <div className={styles.container}>
                 <a href="http://www.discoverfields.com/"><img src="/discoverfields.png" loading="lazy" className={styles.pic} /></a>
                 <p className={styles.name}>Discover Fields</p>
                 <p><span>Description:</span> Discover fields is a tool that allows users to add markers to a Google Map to mark where sports fields are located in their local area. These markers display the sport with the mark and offer information about whether they are public or private fields and a small description.</p>
