@@ -9,6 +9,12 @@ export default function Projects() {
                 className={styles.title}
             >Projects</h1>
             <div className={styles.container}>
+                <a href="https://www.qrcontacttracer.com/"><img src="/qr-contact-tracer.png" loading="lazy" className={styles.pic} /></a>
+                <p className={styles.name}>QR Contact Tracer</p>
+                <p><span>Description:</span> QR Contact Tracer is a web application that allows businesses to safely and easily collect customer contact info through QR codes to slow the spread of COVID-19.</p>
+                <p><span>Tools used:</span> React, Node/Express, CSS, PostgreSQL, Stripe</p>
+            </div>
+            <div className={styles.container}>
                 <a href="https://www.xploreplaces.com/"><img src="/xploreplaces.png" loading="lazy" className={styles.pic} /></a>
                 <p className={styles.name}>XplorePlaces</p>
                 <p><span>Description:</span> XplorePlaces is a tool that calculates the best metro areas and counties in the U.S. using data collected from government databases. This data includes population, population growth, GDP growth, GDP diversity, job growth, unemployment, and severe weather damage. Each place is scored off of all of these data points and then totaled to calculate the overall score. Each place has it’s page where the user can explore historical data for that place.</p>
