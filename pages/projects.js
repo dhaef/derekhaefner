@@ -15,7 +15,7 @@ export default function Projects() {
                 <p><span>Tools used:</span> React, Node/Express, CSS, PostgreSQL, Stripe</p>
             </div>
             <div className={styles.container}>
-                <a href="https://www.xploreplaces.com/"><img src="/xploreplaces.png" loading="lazy" className={styles.pic} /></a>
+                <a href="https://github.com/dhaef/discover_rei"><img src="/xploreplaces.png" loading="lazy" className={styles.pic} /></a>
                 <p className={styles.name}>XplorePlaces</p>
                 <p><span>Description:</span> XplorePlaces is a tool that calculates the best metro areas and counties in the U.S. using data collected from government databases. This data includes population, population growth, GDP growth, GDP diversity, job growth, unemployment, and severe weather damage. Each place is scored off of all of these data points and then totaled to calculate the overall score. Each place has it’s page where the user can explore historical data for that place.</p>
                 <p><span>Tools used:</span> React, Node/Express, CSS, PostgreSQL, Chart.js</p>
