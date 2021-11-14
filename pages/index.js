@@ -10,19 +10,21 @@ export default function Test() {
           <img src="/me.jpg" loading="lazy" alt="me" className={styles.me} />
           <h2 className={styles.name}>Derek Haefner</h2>
         </div>
-        <div className={styles.linkContainer}>
-          <Link href="/projects">
-            <a>Projects</a>
-          </Link>
-          <Link href="/story">
-            <a>Story</a>
-          </Link>
-          <Link href="/resume">
-            <a>Resume</a>
-          </Link>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
+        <div style={{ margin: '0 10px' }}>
+          <div className={styles.linkContainer}>
+            <Link href="/projects">
+              <a>Projects</a>
+            </Link>
+            <Link href="/story">
+              <a>Story</a>
+            </Link>
+            <Link href="/resume">
+              <a>Resume</a>
+            </Link>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
