@@ -5,6 +5,11 @@ import Link from 'next/link';
 export default function Test() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Derek</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <div className={styles.flexContainer}>
         <div className={styles.meContainer}>
           <img src="/me.jpg" loading="lazy" alt="me" className={styles.me} />

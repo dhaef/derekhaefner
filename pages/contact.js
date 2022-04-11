@@ -1,9 +1,14 @@
 import Layout from '../components/layout';
 import styles from './contact.module.css';
+import Head from 'next/head';
 
 export default function Contact() {
   return (
     <Layout>
+      <Head>
+        <title>Contact</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1 className={styles.title}>Contact</h1>
       <div className={styles.container}>
         <div className={styles.card}>

@@ -1,10 +1,15 @@
 import Layout from '../components/layout';
 import styles from './projects.module.css';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function Projects() {
   return (
     <Layout>
+      <Head>
+        <title>Projects</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <h1
         // style={{ textAlign: 'center' }}
         className={styles.title}
