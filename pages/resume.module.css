@@ -1,29 +1,29 @@
 .title {
-    margin: 0 auto;
-    width: fit-content;
-    padding: 0.5rem;
-    border: 1px solid black;
-    box-shadow: 5px 5px 0px rgba(132, 191, 156);
-    border-radius: 5px;
+  margin: 0 auto 2rem auto;
+  width: fit-content;
+  padding: 0.5rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px 0px rgba(132, 191, 156);
+  border-radius: 5px;
 }
 
 .picContainer {
-    width: 95%;
-    min-height: 75vh;
-    margin: 1rem auto;
+  width: 95%;
+  min-height: 75vh;
+  margin: 1rem auto;
 }
 
 .pic {
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px 0px rgba(132, 191, 156);
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px rgba(132, 191, 156);
 }
 
 @media only screen and (min-width: 839px) {
-    .picContainer {
-        max-width: 1000px;
-        margin: 1rem auto;
-    }
+  .picContainer {
+    max-width: 1000px;
+    margin: 1rem auto;
+  }
 }
