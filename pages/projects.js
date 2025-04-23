@@ -22,6 +22,21 @@ function Project({ link, img, title, description, tools }) {
 
 const projects = [
   {
+    link: 'https://www.apiretriever.com/',
+    img: '/apiretriever.png',
+    title: 'APIRetriever',
+    description: `Easily import data into a SmartSheet sheet from any API request. Automate importing data using scheduled requests.`,
+    tools:
+      'React, styled-components, Node/Express, Typescript, Supabase, Docker, DigitalOcean',
+  },
+  {
+    link: 'https://www.pass.derekhaefner.com/',
+    img: '/my_pass.png',
+    title: 'My Pass',
+    description: `Custom password manager`,
+    tools: 'Ruby on Rails, Docker, DigitalOcean',
+  },
+  {
     link: 'https://www.dmaheatmap.com/',
     img: '/dma_heat_map.png',
     title: 'DMA Heat Map',
@@ -32,10 +47,10 @@ const projects = [
     Market-By-Market (DMA) & Doublebase (State), that have location
     based qualifiers and DMA Heat Map allows users to visualize their target
     by both DMAs or states.`,
-    tools: 'JavaScript, HTML, CSS, D3.js, Node/Express',
+    tools: 'JavaScript, HTML, CSS, D3.js, Node/Express, Docker, DigitalOcean',
   },
   {
-    link: 'https://www.keep-in-touch.co/',
+    link: 'https://github.com/dhaef/stay-in-touch',
     img: '/keep-in-touch.png',
     title: 'Keep In Touch',
     description: `Keep In Touch allows users to create a system to be reminded to stay in touch with their friends and family.`,
@@ -43,22 +58,22 @@ const projects = [
       'React, Node/Express, Antd, Styled-Components, Dynamodb, Cognito, Lambda, Stripe',
   },
   {
-    link: 'http://www.financialsnapshot.io/',
+    link: 'https://github.com/dhaef/fin-report',
     img: '/financial-snapshot.png',
     title: 'Financial Snapshot',
     description: `Financial Snapshot connects all your financial accounts into a weekly, monthly, and quarterly email report.`,
     tools:
       'React, Node/Express, Antd, Styled-Components, Dynamodb, Cognito, Lambda, Stripe, Plaid',
   },
-  {
-    link: 'https://www.qrcontacttracer.com/',
-    img: '/qr-contact-tracer.png',
-    title: 'QR Contact Tracer',
-    description: `QR Contact Tracer is a web application
-    that allows businesses to safely and easily collect customer contact
-    info through QR codes to slow the spread of COVID-19.`,
-    tools: 'React, Node/Express, CSS, PostgreSQL, Stripe',
-  },
+  // {
+  //   link: 'https://www.qrcontacttracer.com/',
+  //   img: '/qr-contact-tracer.png',
+  //   title: 'QR Contact Tracer',
+  //   description: `QR Contact Tracer is a web application
+  //   that allows businesses to safely and easily collect customer contact
+  //   info through QR codes to slow the spread of COVID-19.`,
+  //   tools: 'React, Node/Express, CSS, PostgreSQL, Stripe',
+  // },
   {
     link: 'https://github.com/dhaef/discover_rei',
     img: '/xploreplaces.png',
@@ -82,7 +97,7 @@ const projects = [
     tools: 'JavaScript, React, CSS',
   },
   {
-    link: 'http://www.discoverfields.com/',
+    link: 'https://github.com/dhaef/field_app',
     img: '/discoverfields.png',
     title: 'Discover Fields',
     description: `Discover fields is a tool that allows

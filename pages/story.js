@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className={styles.title}>“Hello World!” I’m Derek,</h1>
           <div className={styles.body}>
             <p>
-              I’m a self-proclaimed, but more importantly, self-taught web
+              I’m a self-proclaimed, but more importantly, self-taught
               developer. The journey towards building my professional identity
               started in the summer of 2019 as a recent college grad. Once I was
               faced with the world outside of the academic bubble, I knew I had
