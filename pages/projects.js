@@ -22,6 +22,19 @@ function Project({ link, img, title, description, tools }) {
 
 const projects = [
   {
+    link: 'https://www.dmaheatmap.com/',
+    img: '/dma_heat_map.png',
+    title: 'DMA Heat Map',
+    description: `DMA Heat Map is a tool that takes data from
+    MRI-Simmons consumer profiling software and creates a heat map based
+    on areas that the target consumer indexes highly or that a large
+    percentage of the target lives in. MRI offers two studies,
+    Market-By-Market (DMA) & Doublebase (State), that have location
+    based qualifiers and DMA Heat Map allows users to visualize their target
+    by both DMAs or states.`,
+    tools: 'JavaScript, HTML, CSS, D3.js, Node/Express',
+  },
+  {
     link: 'https://www.keep-in-touch.co/',
     img: '/keep-in-touch.png',
     title: 'Keep In Touch',
@@ -59,19 +72,6 @@ const projects = [
     has it’s page where the user can explore historical data for that
     place.`,
     tools: 'React, Node/Express, CSS, PostgreSQL, Chart.js',
-  },
-  {
-    link: 'https://www.vizlyte.com/',
-    img: '/vizlyte.png',
-    title: 'Vizlyte',
-    description: `Vizlyte is a tool that takes data from
-    MRI-Simmons consumer profiling software and creates a heat map based
-    on areas that the target consumer indexes highly or that a large
-    percentage of the target lives in. MRI offers two studies,
-    Market-By-Market (DMA) & Doublebase (State), that have location
-    based qualifiers and Vizlyte allows users to visualize their target
-    by both DMAs or states.`,
-    tools: 'JavaScript, HTML, CSS, D3.js, Node/Express',
   },
   {
     link: 'https://github.com/dhaef/battleship',

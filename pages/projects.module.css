@@ -1,5 +1,4 @@
 .wrapper {
-  max-width: 1200px;
   padding: 0 0.5rem;
 }
 
@@ -7,8 +6,6 @@
   max-width: 1000px;
   margin: 2rem 5px;
   background-color: white;
-  /* background-color: rgba(132, 191, 156, 0.5); */
-  /* background-color: rgba(0, 0, 0, 0.05); */
   border: 1px solid black;
   box-shadow: 5px 5px 0px rgba(132, 191, 156);
   border-radius: 5px;
@@ -18,7 +15,6 @@
   max-width: 98%;
   height: auto;
   margin: 1%;
-  /* border: 2px solid black; */
   border-radius: 5px;
   box-shadow: 2px 5px 16px rgba(0, 0, 0, 0.2);
 }
