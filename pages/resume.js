@@ -11,7 +11,7 @@ export default function Resume() {
       </Head>
       <h1 className={styles.title}>Resume</h1>
       <div className={styles.picContainer}>
-        <img src="/derek_resume-1.png" loading="lazy" className={styles.pic} />
+        <img src="/derek_resume.png" loading="lazy" className={styles.pic} />
       </div>
     </Layout>
   );
