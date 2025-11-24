@@ -10,12 +10,12 @@ function Layout({ children }) {
             <nav>
                 <div className={styles.lgnav}>
                     <Link href="/"><img src="/Background.png" loading="lazy" alt="Derek Logo" className={styles.logo} /></Link>
-                    <Link href="/"><a className={styles.name}>Derek Haefner</a></Link>
+                    <Link href="/" className={styles.name}>Derek Haefner</Link>
                     <div className={styles.navItems}>
-                        <Link href="/projects"><a className={styles.navItem}>Projects</a></Link>
-                        <Link href="/story"><a className={styles.navItem}>Story</a></Link>
-                        <Link href="/resume"><a className={styles.navItem}>Resume</a></Link>
-                        <Link href="/contact"><a className={styles.navItem}>Contact</a></Link>
+                        <Link href="/projects" className={styles.navItem}>Projects</Link>
+                        <Link href="/story" className={styles.navItem}>Story</Link>
+                        <Link href="/resume" className={styles.navItem}>Resume</Link>
+                        <Link href="/contact" className={styles.navItem}>Contact</Link>
                     </div>
                 </div>
                 <div className={styles.smnav}>
@@ -29,17 +29,17 @@ function Layout({ children }) {
                         <span className={styles.arrow} onClick={() => setShowNav(!showNav)}>▼</span>
                     </div>
                     {showNav && <div className={`${styles.dropdown}`}>
-                        <Link href="/"><a className={styles.dropdownItem}>Home</a></Link>
-                        <Link href="/projects"><a className={styles.dropdownItem}>Projects</a></Link>
-                        <Link href="/story"><a className={styles.dropdownItem}>Story</a></Link>
-                        <Link href="/resume"><a className={styles.dropdownItem}>Resume</a></Link>
-                        <Link href="/contact"><a className={styles.dropdownItem}>Contact</a></Link>
+                        <Link href="/" className={styles.dropdownItem}>Home</Link>
+                        <Link href="/projects" className={styles.dropdownItem}>Projects</Link>
+                        <Link href="/story" className={styles.dropdownItem}>Story</Link>
+                        <Link href="/resume" className={styles.dropdownItem}>Resume</Link>
+                        <Link href="/contact" className={styles.dropdownItem}>Contact</Link>
                     </div>}
                 </div>
             </nav>
             {children}
         </div>
-    )
+    );
 }
 
 export default Layout
