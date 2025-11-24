@@ -19,8 +19,8 @@ export default function Test() {
             <Link href="/projects">
               Projects
             </Link>
-            <Link href="/story">
-              Story
+            <Link href="/blog">
+              Blog
             </Link>
             <Link href="/resume">
               Resume
