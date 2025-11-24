@@ -9,7 +9,6 @@ export default function Test() {
         <title>Derek</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div className={styles.flexContainer}>
         <div className={styles.meContainer}>
           <img src="/me.jpg" loading="lazy" alt="me" className={styles.me} />
@@ -18,16 +17,16 @@ export default function Test() {
         <div style={{ margin: '0 10px' }}>
           <div className={styles.linkContainer}>
             <Link href="/projects">
-              <a>Projects</a>
+              Projects
             </Link>
             <Link href="/story">
-              <a>Story</a>
+              Story
             </Link>
             <Link href="/resume">
-              <a>Resume</a>
+              Resume
             </Link>
             <Link href="/contact">
-              <a>Contact</a>
+              Contact
             </Link>
           </div>
         </div>
