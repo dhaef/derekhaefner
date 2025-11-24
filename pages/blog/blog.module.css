@@ -1,0 +1,39 @@
+.wrapper {
+  padding: 0 0.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto 5px;
+  min-height: 100vh; 
+}
+
+.title {
+  margin: 0 5px 2rem 0;
+  width: fit-content;
+  padding: 0.5rem;
+  border: 1px solid black;
+  box-shadow: 5px 5px 0px rgba(132, 191, 156);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.body {
+  font-size: large;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 839px) {
+  .title {
+    margin: 0 auto 2rem auto;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  .wrapper {
+    padding: 0 2rem;
+  }
+}
