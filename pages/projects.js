@@ -65,15 +65,6 @@ const projects = [
     tools:
       'React, Node/Express, Antd, Styled-Components, Dynamodb, Cognito, Lambda, Stripe, Plaid',
   },
-  // {
-  //   link: 'https://www.qrcontacttracer.com/',
-  //   img: '/qr-contact-tracer.png',
-  //   title: 'QR Contact Tracer',
-  //   description: `QR Contact Tracer is a web application
-  //   that allows businesses to safely and easily collect customer contact
-  //   info through QR codes to slow the spread of COVID-19.`,
-  //   tools: 'React, Node/Express, CSS, PostgreSQL, Stripe',
-  // },
   {
     link: 'https://github.com/dhaef/discover_rei',
     img: '/xploreplaces.png',

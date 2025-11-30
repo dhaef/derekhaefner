@@ -12,16 +12,22 @@ export async function getServerSideProps(context) {
     .from('derek_haefner_blog')
     .select('*')
     .eq('slug', query.slug)
+    .eq('live', true)
 
   if (error) {
     console.log(error)
   }
 
-  return { props: { post: data[0] } }
+  let post = data[0]
+  if (!post) {
+    post = null
+  }
+
+  return { props: { post } }
 }
 
 export default function Blogs({ post }) {
-  const htmlContent = marked.parse(post.content,
+  const htmlContent = marked.parse(post?.content ?? '',
     { gfm: true, breaks: true })
 
   return (
@@ -33,10 +39,10 @@ export default function Blogs({ post }) {
 
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <h1 className={styles.title}>{post.title}</h1>
-          <div className={styles.body}>
-            <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-          </div>
+          {post ? <> <h1 className={styles.title}>{post.title}</h1>
+            <div className={styles.body}>
+              <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+            </div> </> : <div className={styles.body}>No Post Found</div>}
         </div>
       </div>
     </Layout>

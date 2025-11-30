@@ -10,6 +10,7 @@ export async function getServerSideProps() {
   const { data, error } = await client
     .from('derek_haefner_blog')
     .select('*')
+    .eq("live", true)
 
   if (error) {
     console.log(error)
