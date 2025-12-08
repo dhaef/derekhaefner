@@ -1,6 +1,6 @@
-import Layout from '../components/layout';
-import styles from './resume.module.css';
-import Head from 'next/head';
+import Layout from "../components/layout";
+import styles from "./resume.module.css";
+import Head from "next/head";
 
 export default function Resume() {
   return (
